@@ -72,6 +72,7 @@ mod boat_leads;
 mod boat_passengers;
 mod boats;
 mod books;
+mod bots;
 mod bossbars;
 mod breezes;
 mod brush;
