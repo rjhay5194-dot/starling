@@ -2323,6 +2323,7 @@ impl Game<'_> {
                 .expect("the hub is back after the menu events");
         }
         if !paused {
+            self.tick_bots(&mut host);
             self.tick_guests(&mut host);
         }
         self.lan = Some(host);
